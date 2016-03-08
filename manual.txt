@@ -1,0 +1,9 @@
+export urls of images from access product_backend with qryImagesTest using macro Export images urls
+transfer through Dropbox/ubuntu
+save as 'sourcefile.csv' in 'sourcefiles/sourcefile.csv'
+run in cli as '$ruby bin/img_new.rb'
+expect result as:
+Celk pocet obrazkov: 1696
+Pocet chyb obrazkov: 65
+Time: 272.3515232
+and list of missing images in 'missing_images_new.txt'

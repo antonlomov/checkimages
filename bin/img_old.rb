@@ -10,7 +10,7 @@ def check(url)
 end
 
 result = []
-array_of_data = CSV.read('sourcefile1.csv', headers:false, col_sep:';')
+array_of_data = CSV.read('sourcefiles/sourcefile.csv', headers:false, col_sep:';')
 
 
  array_of_data.each do |url|
@@ -23,4 +23,3 @@ puts "Pocet chyb obrazkov: #{result.length}"
 result.each {|item| puts "#{item[1]} - #{item[0]}"}
 end_time = Time.now
 puts "Time: #{end_time - start_time}"
-
