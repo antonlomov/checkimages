@@ -7,3 +7,5 @@ Celk pocet obrazkov: 1696
 Pocet chyb obrazkov: 65
 Time: 272.3515232
 and list of missing images in 'missing_images_new.txt'
+or
+alternatively use 'img_csv.rb' for different output format (csv)
